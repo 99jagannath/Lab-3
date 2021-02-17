@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <style>
+        *{
+            text-align: center;
+        } 
+        article { 
+        width: 50%; 
+        float: left; 
+        } 
+        aside { 
+        float: right; 
+        width: 40%; 
+        } 
+        footer{
+            clear: both;
+        }
+        .commonStructurte{
+            border: 2px solid black;
+             margin: 15px;
+             height: 100px;
+        }
+        #aside{
+            min-height: 300px !important;
+        }
+        #article{
+            min-height: 300px !important;
+        }
+     </style>
+</head>
+<body>
+    <header id="header" class = "commonStructurte">
+        <h1>This is Header</h1>
+    </header>
+    <nav id="nav" class = "commonStructurte">
+        <h1>This is Navbar</h1>
+    </nav>
+    <article id="article" class = "commonStructurte" >
+        <h1>This is article</h1>
+        <section id="section1" class = "commonStructurte">
+             <h1>This is section</h1>
+        </section>
+        <section id="section2" class = "commonStructurte">
+                <h1>This is section</h1>
+        </section>
+    </article>
+    <aside id="aside" class = "commonStructurte" >
+        <h1>This is aside</h1>
+    </aside>
+    <footer id="header" class = "commonStructurte">
+        <h1>This is footer</h1>
+    </footer>
+</body>
+</html>
